@@ -1,3 +1,12 @@
+import subprocess
+import sys
+
+# Ensure scikit-learn is installed in the environment
+try:
+    import sklearn
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn==1.3.2"])
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -71,5 +80,6 @@ if st.button("Predict Survival"):
         st.success("passenger Survived")
 
     else:
+
 
         st.error("passenger Did not survived")
