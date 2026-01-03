@@ -1,3 +1,7 @@
+echo "# force rebuild" >> app.py
+git add app.py
+git commit -m "Force rebuild environment"
+git push
 
 import streamlit as st
 import pandas as pd
@@ -75,4 +79,5 @@ if st.button("Predict Survival"):
 
 
         st.error("passenger Did not survived")
+
 
