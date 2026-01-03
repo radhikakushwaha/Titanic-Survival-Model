@@ -20,8 +20,8 @@ The app is built with **Streamlit** and uses a **Logistic Regression** model.
 ## How to Run
 
 
-git clone https://github.com/your-username/titanic-survival-prediction.git
-cd titanic-survival-prediction
+git clone https://github.com/radhikakushwaha/Titanic-survival-prediction.git
+cd Titanic-survival-prediction
 pip install -r requirements.txt
 streamlit run app.py
 
@@ -31,3 +31,4 @@ streamlit run app.py
 **Radhika Kumari**
 
 ⭐ Star the repository if you find it useful.
+
